@@ -1,4 +1,4 @@
-package ma.enset;
+package ma.enset.mainContainer;
 
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
@@ -9,7 +9,7 @@ public class MainContainer {
         Runtime instance = Runtime.instance();
         ProfileImpl profile=new ProfileImpl();
         profile.setParameter(ProfileImpl.GUI,"true");
-        AgentContainer agentContainer=instance.createAgentContainer(profile);
+        AgentContainer agentContainer=instance.createMainContainer(profile);
         agentContainer.start();
     }
 }

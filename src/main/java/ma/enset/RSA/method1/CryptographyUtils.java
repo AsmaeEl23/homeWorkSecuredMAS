@@ -1,4 +1,4 @@
-package ma.enset;
+package ma.enset.RSA.method1;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;

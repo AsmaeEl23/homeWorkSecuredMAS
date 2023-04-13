@@ -1,4 +1,4 @@
-package ma.enset;
+package ma.enset.RSA.method1;
 
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
@@ -9,7 +9,6 @@ import java.security.PrivateKey;
 import java.util.Base64;
 
 public class ServerAgent extends Agent {
-
     @Override
     protected void setup() {
         PrivateKey privateKey=(PrivateKey) getArguments()[0];

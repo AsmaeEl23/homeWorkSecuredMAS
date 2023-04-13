@@ -1,4 +1,4 @@
-package ma.enset;
+package ma.enset.RSA.method1;
 
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
@@ -18,8 +18,8 @@ public class SimpleAgentContainer {
         KeyPair keyPair = CryptographyUtils.generateRSAKeys();
         PrivateKey privateKey=keyPair.getPrivate();
         PublicKey publicKey=keyPair.getPublic();
-        AgentController server=agentContainer.createNewAgent("server","ma.enset.ServerAgent",new Object[]{privateKey});
-        AgentController client=agentContainer.createNewAgent("client","ma.enset.ClientAgent",new Object[]{publicKey});
+        AgentController server=agentContainer.createNewAgent("server","ma.enset.RSA.method1.ServerAgent",new Object[]{privateKey});
+        AgentController client=agentContainer.createNewAgent("client","ma.enset.RSA.method1.ClientAgent",new Object[]{publicKey});
         server.start();
         client.start();
     }

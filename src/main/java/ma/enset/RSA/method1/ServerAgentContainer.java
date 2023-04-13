@@ -1,4 +1,4 @@
-package ma.enset;
+package ma.enset.RSA.method1;
 
 import jade.wrapper.AgentContainer;
 import jade.core.ProfileImpl;
@@ -11,7 +11,7 @@ public class ServerAgentContainer {
         ProfileImpl profile=new ProfileImpl();
         profile.setParameter(ProfileImpl.MAIN_HOST,"localhost");
         AgentContainer agentContainer= (AgentContainer) instance.createAgentContainer(profile);
-        AgentController server=agentContainer.createNewAgent("server","ma.enset.ServerAgent",new Object[]{});
+        AgentController server=agentContainer.createNewAgent("server","ma.enset.RSA.method1.ServerAgent",new Object[]{});
         server.start();
     }
 }

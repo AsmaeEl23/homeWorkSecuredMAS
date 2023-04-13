@@ -1,4 +1,4 @@
-package ma.enset;
+package ma.enset.RSA.method1;
 
 import jade.core.AID;
 import jade.core.Agent;
