@@ -218,9 +218,12 @@ public class ClientAgentContainer {
 }
 </pre>
 
+
+
 </ol>
   <h2><li >Sending a message encrypted with AES</li></h2>
 <img src="images/AES.png">
+<ol type="1">
 <h3><li>ClientAgent</li></h3>
 <p>Create a client agent that sends an encrypted message to a server agent using AES secretkey he had gotten from arguments.We used also base64 for convert a byte message to string, then send the message to server.</p>
 <pre>
@@ -309,4 +312,5 @@ public class ClientAgentContainer {
     }
 }
 </pre>
+</ol>
 </ol>
