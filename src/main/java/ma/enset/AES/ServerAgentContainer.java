@@ -1,17 +1,18 @@
-package ma.enset.RSA.method1;
+package ma.enset.AES;
 
-import jade.wrapper.AgentContainer;
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
+import jade.wrapper.AgentContainer;
 import jade.wrapper.AgentController;
 
-public class ClientAgentContainer {
+public class ServerAgentContainer {
     public static void main(String[] args) throws Exception {
         Runtime instance =Runtime.instance();
         ProfileImpl profile=new ProfileImpl();
         profile.setParameter(ProfileImpl.MAIN_HOST,"localhost");
         AgentContainer agentContainer= (AgentContainer) instance.createAgentContainer(profile);
-        AgentController client=agentContainer.createNewAgent("client","ma.enset.RSA.method1.ServerAgent",new Object[]{});
-        client.start();
+        String secret="1234561234561234";//128 bits
+        AgentController server=agentContainer.createNewAgent("server","ma.enset.AES.ServerAgent",new Object[]{secret});
+        server.start();
     }
 }

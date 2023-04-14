@@ -37,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Asmae/javaProjects/tpSecuritySMA/images",
+    "last_opened_file_path": "C:/Users/Asmae/javaProjects/tpSecuritySMA/src/main/java/ma/enset/AES",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -52,10 +52,27 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asmae\javaProjects\tpSecuritySMA\src\main\java\ma\enset\AES" />
       <recent name="C:\Users\Asmae\javaProjects\tpSecuritySMA\images" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.enset.RSA.method2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleAgentContainer">
+  <component name="RunManager" selected="Application.ma.enset.AES.ClientAgentContainer">
+    <configuration name="ClientAgentContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.enset.RSA.method2.ClientAgentContainer" />
+      <module name="tpSecuritySMA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.enset.RSA.method2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ma.enset.mainContainer.MainContainer" />
       <module name="tpSecuritySMA" />
@@ -70,7 +87,7 @@
       </method>
     </configuration>
     <configuration name="ServerAgentContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ma.enset.RSA.method1.ServerAgentContainer" />
+      <option name="MAIN_CLASS_NAME" value="ma.enset.RSA.method2.ServerAgentContainer" />
       <module name="tpSecuritySMA" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleAgentContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ma.enset.RSA.method1.SimpleAgentContainer" />
+    <configuration name="ma.enset.AES.ClientAgentContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.enset.AES.ClientAgentContainer" />
       <module name="tpSecuritySMA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ma.enset.RSA.method1.*" />
+          <option name="PATTERN" value="ma.enset.AES.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ma.enset.AES.ServerAgentContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.enset.AES.ServerAgentContainer" />
+      <module name="tpSecuritySMA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.enset.AES.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleAgentContainer" />
+        <item itemvalue="Application.ma.enset.AES.ClientAgentContainer" />
+        <item itemvalue="Application.ma.enset.AES.ServerAgentContainer" />
         <item itemvalue="Application.MainContainer" />
+        <item itemvalue="Application.ClientAgentContainer" />
         <item itemvalue="Application.ServerAgentContainer" />
       </list>
     </recent_temporary>
@@ -111,8 +143,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681385141043</updated>
-      <workItem from="1681385142966" duration="11894000" />
+      <workItem from="1681385142966" duration="18917000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1681423609840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681423609840</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1681423963373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681423963373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
